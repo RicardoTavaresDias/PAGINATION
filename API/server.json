@@ -1,0 +1,89 @@
+{
+  "Users": [
+    {
+      "id": "1743613666691",
+      "name": "Ricardo",
+      "role": "member"
+    },
+    {
+      "id": "1743613744990",
+      "name": "Rogerio",
+      "role": "member"
+    },
+    {
+      "id": "1743613776468",
+      "name": "Daniele",
+      "role": "admin"
+    },
+    {
+      "id": "1743615816015",
+      "name": "Jussara",
+      "role": "member"
+    },
+    {
+      "id": "1743615821098",
+      "name": "Fernando",
+      "role": "member"
+    },
+    {
+      "id": "1743615825691",
+      "name": "Marcos",
+      "role": "member"
+    },
+    {
+      "id": "1743615833990",
+      "name": "Felipe",
+      "role": "member"
+    },
+    {
+      "id": "1743615839602",
+      "name": "Mel",
+      "role": "member"
+    },
+    {
+      "id": "1743615843811",
+      "name": "Davi",
+      "role": "member"
+    },
+    {
+      "id": "1743615848602",
+      "name": "Miriam",
+      "role": "member"
+    },
+    {
+      "id": "1743615854610",
+      "name": "Beatriz",
+      "role": "member"
+    },
+    {
+      "id": "1743615869416",
+      "name": "Marcelo",
+      "role": "member"
+    },
+    {
+      "id": "1743616719618",
+      "name": "Tais",
+      "role": "member"
+    },
+    {
+      "id": "1743616726973",
+      "name": "Gabriel",
+      "role": "member"
+    },
+    {
+      "id": "1743616732940",
+      "name": "Mateus",
+      "role": "member"
+    },
+    {
+      "id": "1743616769834",
+      "name": "Douglas",
+      "role": "member"
+    },
+    {
+      "id": 1743618929988,
+      "name": "Adilton",
+      "role": "member"
+    }
+  ]
+}
