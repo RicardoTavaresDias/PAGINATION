@@ -5,7 +5,7 @@ export function Pagination({ previus, next, totalPage, FetchData }){
         <ul className="pagination">
           <li className="page-item">
             <a className="page-link" href="#" onClick={() => FetchData(0)}>
-              {"<< " + 1}
+              {"<<"}
             </a>
           </li>
           <li className={`page-item ${previus ? "" : "disabled"}`}>
@@ -15,7 +15,7 @@ export function Pagination({ previus, next, totalPage, FetchData }){
               tabindex="-1"
               onClick={() => FetchData(previus ? previus.page : "")}
             >
-              Anterior
+              {"<"}
             </a>
           </li>
           <li className="page-item">
@@ -44,12 +44,17 @@ export function Pagination({ previus, next, totalPage, FetchData }){
               href="#"
               onClick={() => FetchData(next ? next.page : "")}
             >
-              Próximo
+              {">"}
             </a>
           </li>
           <li className="page-item">
             <a className="page-link" href="#" onClick={() => FetchData(totalPage)}>
-              {totalPage + " >>" }
+              {">>" }
+            </a>
+          </li>
+          <li className="page-item disabled">
+            <a className="page-link" href="#">
+              <i>{totalPage}</i>
             </a>
           </li>
         </ul>
